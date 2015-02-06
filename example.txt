@@ -52,7 +52,6 @@ func main() {
 
 func profile(w http.ResponseWriter, r *http.Request, access_file_handler *os.File) {
 	start_time := time.Now().UnixNano()
-	myobj= New()
 	params := mux.Vars(r)
 	name := params["name"]
 	return_string := "Hello " + name
