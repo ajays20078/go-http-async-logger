@@ -1,4 +1,4 @@
-package httpLogger
+package asyncHttpLogger
 
 import (
 	"log"
